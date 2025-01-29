@@ -6,18 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <!-- Open Graph Meta Tags -->
-        <meta property="og:title" content="Mololo - Coming Soon" />
-        <meta property="og:description" content="Camisetitas y movidas to guapas que lo flipas mirmano, vamos viendo" />
-        <meta property="og:image" content="img/mololoClear.png" />
-        <meta property="og:url" content="https://pakoportalo.github.io/mololo/" />
+        <meta property="og:title" content="Mololo" />
+        <meta property="og:description" content="Coming Soon" />
+        <meta property="og:image" content="img/MololoLogoBg.jpg" />
+        <meta property="og:url" content="www.mololo.es" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="es_ES" />
     
         <!-- Twitter Card Meta Tags (opcional, para mejor soporte en Twitter) -->
-        <meta name="twitter:card" content="summary_large_image" />
+
+        <!-- <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mololo - Tienda de camisetas únicas" />
         <meta name="twitter:description" content="Descubre las camisetas más creativas y originales en Mololo." />
-        <meta name="twitter:image" content="https://pakoportalo.github.io/mololo/images/portada.png" />
+        <meta name="twitter:image" content="https://pakoportalo.github.io/mololo/images/portada.png" /> -->
     
 
 
@@ -26,44 +27,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mololo</title>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f4;
-            font-family: 'Montaser', sans-serif;
-        }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+        font-family: 'Montaser', sans-serif;
+    }
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: right;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; /* Center text instead of right */
+    }
+
+    img {
+        width: 20vw; /* Makes it proportional to the viewport width */
+        max-width: 200px; /* Prevents it from becoming too large */
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2vw; /* Makes text size proportional to screen width */
+        color: #1a1a1a;
+        margin-top: 10px; /* Adds spacing */
+        margin-left: 15px;
+    }
+
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 1.2rem; /* Slightly larger for readability */
         }
 
         img {
-            max-width: 10%;
-            height: auto;
+            width: 40vw; /* Adjust based on viewport width */
+            max-width: 150px;
         }
-
-        h1 {
-            font-size: 1.7rem;
-            color: #1a1a1a;
-            margin-left: 25px;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 0.8rem;
-            }
-
-            img {
-                max-width: 40%;
-            }
-        }
+    }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Montaser&display=swap" rel="stylesheet">
 </head>
